@@ -1,4 +1,4 @@
-# NTT
+### NTT
 ---
 
 This document demonstrates my knowledge of making small buisness networks.

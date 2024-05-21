@@ -32,5 +32,6 @@ I then configured the DHCP server for the LAN interface using these command prom
 
 I verified the configuration here.
 
-![gns3-ntt-lab-stage1-instructions-config-lan-network-fw4](https://github.com/tetsunoheishi/NTT/assets/170445180/f7353d8e-11b3-414b-a1c0-b9cce76b3a14)
+![gns3-ntt-lab-stage1-instructions-config-lan-network-fw5](https://github.com/tetsunoheishi/NTT/assets/170445180/9bd72b67-6720-4482-8033-47b1d3e2b20f)
+
 

@@ -34,7 +34,7 @@ I verified the configuration here.
 
 ![gns3-ntt-lab-stage1-instructions-config-lan-network-fw5](https://github.com/tetsunoheishi/NTT/assets/170445180/9bd72b67-6720-4482-8033-47b1d3e2b20f)
 
-I then set up the next work for the Wndows 10 Desktop using the DHCP addresses from the LAN network
+I then set up the network for the Wndows 10 Desktop using the DHCP addresses from the LAN network
 
 ![gns3-ntt-lab-stage1-instructions-add-win10-1](https://github.com/tetsunoheishi/NTT/assets/170445180/2dc3a9fe-0cc8-4503-aaad-7a6e48b0aaac)
 

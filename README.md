@@ -12,6 +12,7 @@ Stage 0
 This is the starting topology. It represents the network before implementing firewalls and switches.
 
 ---
+
 Stage 1
 
 This shows the implimentation of a firewall, LAN switch, DMZ switch and a Windows Desktop in the network.
@@ -55,4 +56,11 @@ hostname = firewall
   idle timeout = 60
   auto file system check = enabled
 
-  
+  I then backed all configurations in case something went wrong and I need to revert back to a previous stage and rebooted.
+
+  After the reboot I configured network interfaces according to the clients requests : 
+    10.128.0.0/24 as the LAN network
+    10.128.99.0/24 as the GUEST network
+    10.128.10.0/24 as the DMZ network
+
+

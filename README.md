@@ -34,4 +34,25 @@ I verified the configuration here.
 
 ![gns3-ntt-lab-stage1-instructions-config-lan-network-fw5](https://github.com/tetsunoheishi/NTT/assets/170445180/9bd72b67-6720-4482-8033-47b1d3e2b20f)
 
+I then set up the next work for the Wndows 10 Desktop using the DHCP addresses from the LAN network
 
+![gns3-ntt-lab-stage1-instructions-add-win10-1](https://github.com/tetsunoheishi/NTT/assets/170445180/2dc3a9fe-0cc8-4503-aaad-7a6e48b0aaac)
+
+I then pinged the LAN, WAN, and DNS connections to verify.
+
+![gns3-ntt-lab-stage1-instructions-add-win10-2](https://github.com/tetsunoheishi/NTT/assets/170445180/dcd8bbfc-ab1b-4dfa-8976-14857e83aa92)
+
+After verifying connections I went into the windows desktop and accesses the firewall GUI from http://10.128.0.1/
+
+![gns3-ntt-lab-stage1-instructions-fw-gui2](https://github.com/tetsunoheishi/NTT/assets/170445180/8f78d88c-cb89-4e86-ba03-4a8f214f5dd5)
+
+I then made system changes to enable LAN and DMZ devices to sync time with the firewall using the following promtps in the system settings
+
+hostname = firewall
+  timezone = GMT -6:00 Central Time (US & Canada)
+  setup device as local NTP server = enabled
+      list on interfaces = port2, port4
+  idle timeout = 60
+  auto file system check = enabled
+
+  

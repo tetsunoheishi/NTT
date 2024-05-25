@@ -63,4 +63,6 @@ hostname = firewall
     10.128.99.0/24 as the GUEST network, and
     10.128.10.0/24 as the DMZ network
 
+I then created 4 seperate ports.
 
+![image](https://github.com/tetsunoheishi/NTT/assets/170445180/f78a204a-c4a6-4bfb-b506-4efdfc12b458)
